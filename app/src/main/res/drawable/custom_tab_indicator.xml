@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#4CAF50" /> <!-- 색상 설정 -->
+    <size android:width="8dp" android:height="8dp" /> <!-- 인디케이터 크기 설정 -->
+</shape>
