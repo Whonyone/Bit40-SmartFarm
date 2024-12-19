@@ -7,15 +7,16 @@
     android:layout_height="match_parent">
 
     <!-- ImageView -->
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="match_parent"
-        android:layout_height="214dp"
-        android:src="@drawable/alloebera"
+    <ImageButton
+        android:id="@+id/ImageButton2"
+        android:layout_width="440dp"
+        android:layout_height="220dp"
         android:scaleType="centerCrop"
-        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/alloebera"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <!-- Button, ImageView 위에 배치 -->
     <ImageButton
@@ -44,7 +45,7 @@
         android:weightSum="1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageView2">
+        app:layout_constraintTop_toBottomOf="@id/ImageButton2">
 
         <!-- 왼쪽 TextView -->
         <TextView
@@ -75,9 +76,9 @@
     <View
         android:id="@+id/div1"
         android:layout_width="match_parent"
+        android:layout_height="1dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
-        android:layout_height="1dp"
         android:background="#E0E0E0"
         app:layout_constraintTop_toBottomOf="@id/linearLayout" />
 
@@ -114,10 +115,10 @@
             android:gravity="end"
             android:text="23일"
             android:textColor="#4F8B63"
-            android:textSize="16sp"/>
+            android:textSize="16sp" />
     </LinearLayout>
 
-<!-- 중간 텍스트 -->
+    <!-- 중간 텍스트 -->
 
     <TextView
         android:id="@+id/textView6"
@@ -180,7 +181,7 @@
             android:textColor="#4A4A4A"
             android:textSize="16sp" />
     </LinearLayout>
-<!--    only 텍스트-->
+    <!--    only 텍스트-->
     <LinearLayout
         android:id="@+id/info_text1"
         android:layout_width="match_parent"
@@ -275,7 +276,7 @@
             android:textColor="#4A4A4A"
             android:textSize="16sp" />
     </LinearLayout>
-<!--    only 텍스트-->
+    <!--    only 텍스트-->
     <LinearLayout
         android:id="@+id/info_text2"
         android:layout_width="match_parent"
@@ -329,6 +330,8 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="30dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
         android:text="대화하기"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -337,9 +340,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/info2"
         app:layout_constraintVertical_bias="1.0"
-        android:background="@android:color/transparent"
-        app:srcCompat="@drawable/chatbtn"
-        android:scaleType="centerCrop"
-        />
+        app:srcCompat="@drawable/chatbtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

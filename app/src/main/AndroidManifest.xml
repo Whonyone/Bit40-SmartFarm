@@ -22,9 +22,13 @@
             </intent-filter>
         </activity>
 
-<!--        <activity-->
-<!--            android:name=".DiaryActivity"-->
-<!--            android:exported="true" />-->
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".DiaryActivity"
+            android:exported="true" />
 
     </application>
 

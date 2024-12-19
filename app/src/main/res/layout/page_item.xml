@@ -38,7 +38,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:gravity="center">
 
                 <TextView
                     android:id="@+id/pageTitle"
@@ -48,6 +49,7 @@
                     android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/title_green"
+                    android:gravity="center"
                     android:layout_marginBottom="8dp"/>
 
                 <TextView
@@ -57,7 +59,8 @@
                     android:text="날짜가 기입됩니다"
                     android:textSize="15sp"
                     android:textColor="@color/gray"
-                    android:layout_marginBottom="8dp"/>
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"/>
 
                 <TextView
                     android:id="@+id/pageDescription"
