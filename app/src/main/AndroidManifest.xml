@@ -23,11 +23,39 @@
         </activity>
 
         <activity
+            android:name=".SignUPActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".LogInActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".DashBoardActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".NewGroupActivity"
+            android:exported="true" />
+
+        <activity
             android:name=".ProfileActivity"
             android:exported="true" />
 
         <activity
+            android:name=".SettingsActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".GalleryActivity"
+            android:exported="true" />
+
+        <activity
             android:name=".DiaryActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".ChatBot11Activity"
             android:exported="true" />
 
     </application>
