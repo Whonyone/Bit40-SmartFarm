@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- 바질 잎사귀의 배경을 그리기 -->
+    <path
+        android:fillColor="#A4C639"
+        android:pathData="M100,20 C130,40 160,80 130,120 C100,150 80,120 50,100 C30,80 40,40 70,20 C90,10 100,10 100,20 Z" />
+
+    <!-- 바질 잎사귀의 세부적인 라인 추가 -->
+    <path
+        android:strokeColor="#006400"
+        android:strokeWidth="2"
+        android:pathData="M100,20 C110,40 120,60 130,80 M80,120 C90,110 100,90 110,80" />
+</vector>

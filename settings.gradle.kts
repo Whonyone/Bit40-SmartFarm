@@ -21,4 +21,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "My SmartFarm"
 include(":app")
- 
